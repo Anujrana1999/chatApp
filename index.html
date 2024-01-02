@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>iChat</title>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <img class="image" src="./assets/message-icon.png" alt="logo">
+            <h1 class="title">iChat</h1>
+        </div>
+    </nav>
+    <h2>Welcome to iChat random lobby</h2>
+    <div class="container">
+    </div>
+    <div class="send">
+        <form id="chatForm">
+            <input type="text" name="chat" id="chatInput" required>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </div>
+
+    <script src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
